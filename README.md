@@ -38,6 +38,7 @@ The API Gateway exposes the following routes:
 
 4. Create a .env file in the project root and define the following variables:
 
+    ```bash
     USER_REGISTRATION_SERVICE=http://localhost:3000
     GET_USER_SERVICE=http://localhost:3001
     DELETE_USER_SERVICE=http://localhost:3002
@@ -51,6 +52,7 @@ The API Gateway exposes the following routes:
 ## Usage
 
 1. Register a User:
+    ```bash
     curl -X POST http://localhost:4000/api/register \
     -H "Content-Type: application/json" \
     -d '{
@@ -60,6 +62,7 @@ The API Gateway exposes the following routes:
     }'
 
 2. Login 
+    ```bash
     curl -X POST http://localhost:4000/api/login \
     -H "Content-Type: application/json" \
     -d '{
@@ -68,4 +71,5 @@ The API Gateway exposes the following routes:
     }'
 
 3. Get All Users
+    ```bash
     curl -X GET http://localhost:4000/api/users
