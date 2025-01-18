@@ -39,7 +39,7 @@ The API Gateway exposes the following routes:
 4. Create a .env file in the project root and define the following variables:
 
     ```bash
-    USER_REGISTRATION_SERVICE=http://localhost:3000
+    USER_REGISTRATION_SERVICE=http://localhost:3006
     GET_USER_SERVICE=http://localhost:3001
     DELETE_USER_SERVICE=http://localhost:3002
     UPDATE_USER_SERVICE=http://localhost:3003
