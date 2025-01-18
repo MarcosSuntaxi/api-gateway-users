@@ -9,7 +9,7 @@ The API Gateway acts as a single entry point to communicate with multiple micros
 - Error handling
 
 ## Microservices Used
-- **User Registration Service**: `http://localhost:3000`
+- **User Registration Service**: `http://localhost:3006`
 - **Get User Service**: `http://localhost:3001`
 - **Delete User Service**: `http://localhost:3002`
 - **Update User Service**: `http://localhost:3003`
